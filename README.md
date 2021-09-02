@@ -64,16 +64,22 @@ Deberás desplegar sólo los registros cuyo UBI empiece con *prefix*, ordenados 
 
 Para probar tu implementación, compila tu programa con el comando:
 ```
-g++ -std=c++11 main.cpp -o app
+make
 ```
-Posteriormente, prueba con cada uno de los archivos de entrada de prueba que encontrarás en este repositorio (input1.txt, input2.txt, input3.txt, input4.txt). Los resultados que debes obtener se encuentran en los archivos llamados output1.txt, output1.txt, output1.txt y output1.txt. Para realizar las pruebas, puedes usar las siguientes líneas de código. Por ejemplo, si queremos probar con el archivo de prueba "input1.txt".
+Si quieres probar únicamente un test, ejecuta el comando respectivo:
 ```
-./app < input1.txt > mysolution1.txt
-diff mysolution1.txt output1.txt
+make test1
 ```
-Si el segundo comando no tenga ninguna salida, sabrás que los resultados que obtuviste son los esperados. Recuerda actualizar tu repositorio (*git push*) cuando hayas terminado tu implementación.
-
-Por último, Realiza en forma individual una investigación y reflexión de la importancia y eficiencia del uso de grafos en una situación problema de esta naturaleza,  generando un documento llamado **"ReflexAct1.3.pdf "**.
+```
+make test2
+```
+```
+make test3
+```
+```
+make test4
+```
+Por último, realiza en forma individual una investigación y reflexión de la importancia y eficiencia del uso de grafos en una situación problema de esta naturaleza,  generando un documento llamado **"ReflexAct1.3.pdf "**.
 
 ## <span style="color: rgb(26, 99, 169);">**¿Bajo qué criterios se evalúa mi evidencia?**</span>
 
